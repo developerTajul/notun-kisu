@@ -1,0 +1,73 @@
+
+/* ================================
+            common css start
+=================================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* =================================
+        common css end
+==================================== */
+
+/* =================================
+        Header part css start
+==================================== */
+
+#header-part{
+    width: 1919px;
+    line-height: 58px;
+    background-color:#181818 ;
+    
+}
+
+#header-part .header-left p{
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 18px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#header-part .header-left img{
+    padding-right: 10px;
+}
+
+#header-part .header-middle p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 18px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    
+
+}
+
+#header-part .header-middle img{
+    padding-right: 10px;
+}
+
+#header-part .header-right .icons img{
+    margin: 0 10px;
+    margin-top: 18px;
+}
+
+
+
+
+/* =================================
+        Header part css end
+==================================== */
