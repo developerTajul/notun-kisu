@@ -231,6 +231,8 @@ a{
     font-weight: 500;
     font-family: 'Lato', sans-serif;
     margin-top: 35px;
+    
+    
 }
 
 #banner-part .banner-box .book {
@@ -270,4 +272,17 @@ a{
 
 /* =================================
         Banner part css end
+==================================== */
+
+
+/* =================================
+        Brand part css start
+==================================== */
+#brand-part{
+    width: 1920px;
+    padding: 10px 10px;
+}
+
+/* =================================
+        Brand part css end
 ==================================== */
