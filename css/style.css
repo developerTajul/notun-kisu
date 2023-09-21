@@ -9,8 +9,11 @@
     box-sizing: border-box;
 }
 
-ul,ol{
+ul,li{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 
 .container{
@@ -33,6 +36,7 @@ ul,ol{
     
 }
 
+
 #header-part .header-left p{
     font-size: 14px;
     font-weight: 400px;
@@ -52,22 +56,121 @@ ul,ol{
     margin-top: 18px;
     color: #fff;
     font-family: 'Lato', sans-serif;
+   margin-left: 30px;
     
 
 }
 
+
 #header-part .header-middle img{
     padding-right: 10px;
 }
+
+
+
 
 #header-part .header-right .icons img{
     margin: 0 10px;
     margin-top: 18px;
 }
 
+#header-part .header-right{
+    margin-left: 200px;
+}
+/* =================================
+        Header part css end
+==================================== */
 
+/* =================================
+        Navbar part css start
+==================================== */
+#navbar-part{
+    width: 1920px;
+    line-height: 140px;
+    background-color: #2F2F2F;
+}
+
+#navbar-part .logo p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+}
+
+#navbar-part .logo img{
+    padding-right: 10px;
+}
+
+#navbar-part .menu ul li{
+    display: inline-block;
+    transition: .4s;
+
+    
+}
+#navbar-part .menu ul li .icon:hover{
+    color: #4EAF4E;
+}
+
+#navbar-part .menu ul a{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: #fff ;
+    font-family: 'Lato', sans-serif;
+    transition: .4s;
+
+}
+
+#navbar-part .menu ul a:hover{
+    color: #4EAF4E;
+}
+
+#navbar-part .menu ul a .icon{
+    padding-right: 5px;
+}
+
+#navbar-part .search-box{
+    width: 240px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: #ffff;
+    border-radius: 40px;
+    position: relative;
+    margin-left: 35px;
+   
+}
+
+#navbar-part .search-box .semi-box {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #FFC32B;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+#navbar-part .search-box .semi-box .icon{
+    color: #0D0D0D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#navbar-part .search-box p{
+    color: #353535;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    
+}
 
 
 /* =================================
-        Header part css end
+        Navbar part css end
 ==================================== */
