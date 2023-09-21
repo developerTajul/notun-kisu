@@ -30,7 +30,7 @@ a{
 ==================================== */
 
 #header-part{
-    width: 1919px;
+    width: 1920px;
     line-height: 58px;
     background-color:#181818 ;
     
@@ -88,6 +88,8 @@ a{
     width: 1920px;
     line-height: 140px;
     background-color: #2F2F2F;
+ 
+  
 }
 
 #navbar-part .logo p{
@@ -137,6 +139,7 @@ a{
     border-radius: 40px;
     position: relative;
     margin-left: 35px;
+    
    
 }
 
@@ -173,4 +176,98 @@ a{
 
 /* =================================
         Navbar part css end
+==================================== */
+
+/* =================================
+        Banner part css start
+==================================== */
+
+#banner-part{
+    width: 1920px;
+    position: relative;
+}
+#banner-part img{
+    width: 100%;   
+}
+
+#banner-part .banner-box{
+    width: 550px;
+    height: 395px;
+    background-color: rgba(255, 255, 255, 0.891);
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 200px;
+}
+
+#banner-part .banner-box h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    color: #181818;
+    margin-bottom: 10px;
+
+}
+
+
+#banner-part .banner-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #595566;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+
+}
+
+#banner-part .banner-box .service{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #181818;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    margin-top: 35px;
+}
+
+#banner-part .banner-box .book {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 54px;
+    padding-right: 20px;
+    border-radius: 25px;
+    background: #ffff;
+    color: #353535;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    margin-top: 35px;
+    position: relative;
+}
+
+
+
+#banner-part .banner-box .semi-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4EAF4E;
+    position: relative;
+    top: -44px;
+    left: 148px;
+}
+
+#banner-part .banner-box .semi-btn .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+/* =================================
+        Banner part css end
 ==================================== */
