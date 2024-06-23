@@ -21,144 +21,10 @@
   }
   .single-post-item {
     //border: 0;
-    overflow: visible;
-    box-shadow: none;
-    .post-title{
-      margin-bottom: 20px;
-    }
-    .post-meta-info{
-      font-family: $heading-font;
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 27px;
-      color: $black;
-      i{
-        font-size: 5px;
-      }
-    }
-    .divider{
-      width: 2px;
-      height: 100%;
-      background-color: $primary-color;
-      flex-shrink: 0;
-      @include rmaxwd(1199){
-        width: 100%;
-        height: 2px;
-      }
-    }
-    .gallery-image-wrapper{
-      display: flex;
-      gap: 30px;
-      align-items: center;
-      @include rmaxwd(1199){
-        align-items: start;
-        flex-direction: column;
-      }
-      .gallery-image{
-        flex-shrink: 0;
-        @include sm{
-          margin-bottom: 0;
-        }
-        @include xl{ 
-          width: 300px;
-        }
-        
-      }
-      .gallery-image-content{
-        p{
-          margin-bottom: 0;
-        }
-      }
-    }
-    blockquote {
-      box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
-      background-color: #fff;
-      @include sm{
-        padding: 20px;
-      }
-    }
+    //overflow: visible;
     .single-post-meta {
       margin-bottom: 0;
       gap: 20px;
-      justify-content: space-between;
-      position: relative;
-      align-items: center;
-
-      @include sm{
-        flex-direction: column;
-      }
-      .blog-post-tag{
-        .tag-icon{
-          color: $primary-color;
-          font-size: 20px;
-        }
-      }
-      .social-share{
-        //margin-right: 12px;
-
-        .social-btn-overlay{
-          height: 100%;
-          width: 100%;
-          position: fixed;
-          top: 0;
-          z-index: 1;
-          left: 0;
-          opacity: 0;
-          visibility: hidden;
-          &.active{
-            visibility: visible;
-            opacity: 1;
-          }
-        }
-      }
-      .social-btn{
-        color: $primary-color;
-        background-color: transparent;
-      }
-      .share-group{
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: flex;
-        gap: 8px;
-        padding: 16px 10px;
-        border-radius: 4px;
-        background-color: #D9A14C;
-        flex-direction: column;
-        transform: translate(0px, -100%);
-        z-index: 3;
-        visibility: hidden;
-        opacity: 0;
-        @include transition;
-        &:after{
-          content: "";
-          width: 10px;
-          height: 10px;
-          background-color: #D9A14C;
-          transform: rotate(35deg);
-          position: absolute;
-          bottom: -5px;
-          left: 50%;
-          transform: translateX(-50%) rotate(45deg);
-          z-index: -1;
-        }
-        &.active{
-          visibility: visible;
-          opacity: 1;
-        }
-        a{
-          width: 30px;
-          height: 30px;
-          display: inline-flex;
-          flex-shrink: 0;
-          justify-content: center;
-          align-items: center;
-          background: #fff;
-          border-radius: 50%;
-          font-size: 12px;                
-        }
-        i{}
-      }
     }
     iframe {
       width: 100%;
@@ -182,9 +48,8 @@
     .wp-block-post-featured-image {
       //border-radius: 12px;
       overflow: hidden;
-      margin-bottom: 30px;
+      //margin-bottom: 45px;
       position: relative;
-      //padding-bottom: 40px;
 
       &:hover {
         img {
@@ -198,23 +63,13 @@
         @include transition;
       }
     }
-    .post-content-wrapper {
-      padding: 0;
-    }
+    //.post-content-wrapper {
+    //  padding: 0 0 10px 0;
+    //}
     .post-content {
       margin-bottom: 17px;
       /* Unit Test Data Compatibility Start */
-      .list-item-wrapper{
-        .list-item{
-          .text{
-            font-family: $heading-font;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 27px;
-            color: $black;
-          }
-        }
-      }
+
       .wp-block-archives li a,
       .wp-block-tag-cloud a {
         color: $text-color;
@@ -252,33 +107,10 @@
           //border-radius: 8px;
         }
       }
-      .gallery-image{
-        @media only screen and (min-width: 768px) and (max-width: 1199px){
-          // margin-bottom: 30px;
-        }
-      }
     }
-    .list-item-wrapper{
-      @include md{
-        margin-bottom: 10px;
-      }
-    }
-    &.post-1786{
-      .post-meta-info{
-        margin-bottom: 20px;
-        display: block;
-      }
-    }
-    &.post-1778{
-      .post-content-wrapper{
-        p{
-          line-height: normal;
-        }
-      }
-    }
-    &.post-1782{
-      .post-content-wrapper{
-        padding-top: 0;
+    .blog-post-tag {
+      .social-share {
+        padding-bottom: 20px;
       }
     }
   }
