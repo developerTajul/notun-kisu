@@ -10679,6 +10679,16 @@ body.admin-bar .header-area.style-7 {
   transition: all 0.5s ease-out;
 }
 
+.single-post-item .single-post-meta {
+  display: inline-flex;
+  align-items: flex-start;
+  padding-top: 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
 .skill-progressbar-wrapper {
   display: flex;
   flex-direction: column;
