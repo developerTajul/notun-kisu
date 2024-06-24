@@ -286,7 +286,6 @@
           &:hover {
             background-color: $primary-color;
             color: $white;
-            @include transition;
             i{
               color: $white;
               @include transition;
