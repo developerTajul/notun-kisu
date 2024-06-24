@@ -923,3 +923,16 @@ body {
     }
   }
 }
+
+
+.wp-block-categories-list.wp-block-categories{
+  li {
+    a{
+      color: #616670;
+      :hover{
+        color: red;
+      }
+    }
+  }
+	color: #616670;
+}
