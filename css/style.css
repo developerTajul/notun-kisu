@@ -3028,12 +3028,14 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .wp-block-rss li a,
 .wp-block-page-list li a,
-.wp-block-categories-list.wp-block-categories li a {
+.wp-block-categories-list.wp-block-categories li a,
+ul li a {
   color: #616670;
 }
 .wp-block-rss li a:hover,
 .wp-block-page-list li a:hover,
-.wp-block-categories-list.wp-block-categories li a:hover {
+.wp-block-categories-list.wp-block-categories li a:hover,
+ul li a:hover {
   color: #D9A14C;
 }
 

@@ -926,7 +926,9 @@ body {
 
 .wp-block-rss,
 .wp-block-page-list,
-.wp-block-categories-list.wp-block-categories{
+.wp-block-categories-list.wp-block-categories,
+ul
+{
   li {
     a{
       color: #616670;
