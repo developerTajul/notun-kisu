@@ -12832,6 +12832,8 @@ body.admin-bar .header-area.style-7 {
 }
 .latest-comments li .comments-box .comments-avatar {
   float: left;
+  width: 104px;
+  height: 104px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
