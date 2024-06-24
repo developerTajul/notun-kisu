@@ -924,16 +924,15 @@ body {
   }
 }
 
-
+.wp-block-page-list,
 .wp-block-categories-list.wp-block-categories{
   li {
     a{
       color: #616670;
       &:hover{
-        color: red;
+        color: #D9A14C;
       }
     }
   }
-	color: #616670;
 }
 

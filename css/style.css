@@ -3026,14 +3026,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px;
 }
 
-.wp-block-categories-list.wp-block-categories {
-  color: #616670;
-}
+.wp-block-page-list li a,
 .wp-block-categories-list.wp-block-categories li a {
   color: #616670;
 }
+.wp-block-page-list li a:hover,
 .wp-block-categories-list.wp-block-categories li a:hover {
-  color: red;
+  color: #D9A14C;
 }
 
 @keyframes MovefadeUp {
