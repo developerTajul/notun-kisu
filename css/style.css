@@ -12916,6 +12916,9 @@ body.admin-bar .header-area.style-7 {
   color: #ffffff;
   transition: all 0.5s ease-out;
 }
+.latest-comments li .comments-box .comments-text .comment-reply-link:hover i {
+  color: #ffffff;
+}
 
 .post-comments .latest-comments > ul {
   list-style: none;
