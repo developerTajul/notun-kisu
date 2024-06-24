@@ -3026,14 +3026,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px;
 }
 
-.hellow li a,
 .wp-block-rss li a,
 .wp-block-page-list li a,
 .wp-block-categories-list.wp-block-categories li a,
 ul li a {
   color: #616670;
 }
-.hellow li a:hover,
 .wp-block-rss li a:hover,
 .wp-block-page-list li a:hover,
 .wp-block-categories-list.wp-block-categories li a:hover,
@@ -12834,8 +12832,6 @@ body.admin-bar .header-area.style-7 {
 }
 .latest-comments li .comments-box .comments-avatar {
   float: left;
-  width: 104px;
-  height: 104px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
