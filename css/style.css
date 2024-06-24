@@ -3032,7 +3032,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .wp-block-categories-list.wp-block-categories li a {
   color: #616670;
 }
-.wp-block-categories-list.wp-block-categories li a :hover {
+.wp-block-categories-list.wp-block-categories li a:hover {
   color: red;
 }
 

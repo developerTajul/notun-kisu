@@ -929,7 +929,7 @@ body {
   li {
     a{
       color: #616670;
-      :hover{
+      &:hover{
         color: red;
       }
     }
