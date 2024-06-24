@@ -12937,6 +12937,10 @@ ul.children {
   border-radius: 50%;
 }
 
+.latest-comments li .comments-box .comments-text .comment-reply-link:hover i {
+  color: #fff;
+}
+
 /*Comment Input Filed*/
 .post-comments-title .sub-title {
   font-family: "Rajdhani", sans-serif;
