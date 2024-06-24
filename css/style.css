@@ -12928,6 +12928,12 @@ ul.children {
   list-style: none;
 }
 
+.latest-comments li .comments-box .comments-avatar img {
+  margin-right: 23px;
+  width: 104px;
+  border-radius: 50%;
+}
+
 /*Comment Input Filed*/
 .post-comments-title .sub-title {
   font-family: "Rajdhani", sans-serif;
