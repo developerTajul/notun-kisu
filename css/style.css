@@ -2327,6 +2327,13 @@ table td#today a {
   margin-top: 55px;
 }
 
+.post-comments-form a {
+  color: #23262D;
+}
+.post-comments-form a:hover {
+  color: #D9A14C;
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
   border: 0;
