@@ -13,10 +13,8 @@ body {
   color: $text-color;
   vertical-align: baseline;
   line-height: 30px;
-  font-smoothing: antialiased;
   direction: ltr;
 }
-
 
 p {
   margin: 0 0 15px;
@@ -26,7 +24,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 
 h1 a,
 h2 a,
@@ -100,8 +97,6 @@ button {
 
 a:not([href]):not([tabindex]) {
   text-decoration: none;
-
-
 }
 
 a,
@@ -170,15 +165,12 @@ input:focus {
 }
 
 .background-gray {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .background-orange {
   background-color: $primary-color;
 }
-
-
-
 
 //.background-black-light {
 //  background-color: $black-100;
@@ -186,7 +178,6 @@ input:focus {
 //.background-gold {
 //  background-color: $primary-color;
 //}
-
 
 //.bg-light-black {
 //  background-color: rgb(49, 55, 63);
@@ -210,8 +201,6 @@ input:focus {
 //  background-color: rgb(241, 241, 249);
 //}
 
-
-
 .page-bg {
   background-color: $black;
 }
@@ -232,7 +221,6 @@ input:focus {
 
 .page-area,
 .blog-area {
-
   @include rmaxwd(991) {
     padding-top: 100px;
     padding-bottom: 52px;
@@ -362,7 +350,6 @@ input.theme-btn {
   .icon {
     float: right;
   }
-
 }
 
 input.theme-btn {
@@ -535,8 +522,6 @@ input.theme-btn {
   //width: 150px;
   //height: 150px;
 
-
-
   //width: 100px;
   //height: 100px;
   //span {
@@ -573,9 +558,10 @@ input.theme-btn {
   }
 }
 
-
 // Elementor Default Padding
-.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+.elementor-column-gap-default
+  > .elementor-column
+  > .elementor-element-populated {
   padding: 0 12px !important;
 }
 
