@@ -4381,29 +4381,16 @@ body.admin-bar .header-area.style-7 {
 }
 .section-title .short-title {
   font-family: "Outfit", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 4px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #0a6847;
   margin-bottom: 10px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
-}
-.section-title .short-title::before, .section-title .short-title::after {
-  content: "";
-  width: 20px;
-  height: 1px;
-  border-bottom: 1px solid #0a6847;
-  flex: 1 1;
-}
-.section-title .short-title.no-divider:before, .section-title .short-title.no-divider:after {
-  display: none;
-}
-.section-title .short-title.only-divider::before {
-  display: none;
 }
 .section-title .title {
   font-family: "Outfit", sans-serif;
@@ -10847,29 +10834,16 @@ body.admin-bar .header-area.style-7 {
 }
 .section-title .short-title {
   font-family: "Outfit", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 4px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #0a6847;
   margin-bottom: 10px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
-}
-.section-title .short-title::before, .section-title .short-title::after {
-  content: "";
-  width: 20px;
-  height: 1px;
-  border-bottom: 1px solid #0a6847;
-  flex: 1 1;
-}
-.section-title .short-title.no-divider:before, .section-title .short-title.no-divider:after {
-  display: none;
-}
-.section-title .short-title.only-divider::before {
-  display: none;
 }
 .section-title .title {
   font-family: "Outfit", sans-serif;
