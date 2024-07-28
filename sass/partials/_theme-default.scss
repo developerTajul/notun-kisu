@@ -251,61 +251,24 @@ code {
 .theme-btn,
 .wp-block-loginout a,
 input.theme-btn {
-  display: inline-flex;
-  background-color: $primary-color;
-  border: 1px solid $primary-color;
-  color: $white;
-  padding: 14px 24px;
-  text-align: center;
-  font-weight: 700;
+  padding: 20px 30px;
+  border: 1px solid $gray-200;
   font-family: $heading-font;
-  text-transform: uppercase;
-  position: relative;
-  @include transition;
   font-size: 16px;
-  letter-spacing: 1.28px;
+  font-weight: 600;
+  line-height: 20px;
+  display: inline-flex;
   align-items: center;
-  gap: 15px;
-  overflow: hidden;
-  z-index: 2;
-  white-space: nowrap;
+  gap: 10px;
+  border-radius: 50px;
+  color: $gray-900;
 
-  @include xs {
-    letter-spacing: initial;
-    font-size: 14px;
-  }
-
-  //i {
-  //  display: inline-flex;
-  //  align-items: center;
-  //  justify-content: center;
-  //}
-  // &:before {
-  //   position: absolute;
-  //   left: -20%;
-  //   top: 0;
-  //   height: 100%;
-  //   width: 0;
-  //   content: "";
-  //   background-color: $blue-color;
-  //   z-index: -1;
-  //   transform: skew(45deg);
-  //   @include transition;
-  // }
   &:hover {
-    color: #fff;
-    border-color: $blue-color;
-    background-color: $blue-color;
-
-    &:before {
-      width: 150%;
-      background-color: $blue-color;
+    color: unset;
+    i {
+      color: $primary-color;
       @include transition;
     }
-  }
-
-  &:focus {
-    color: $white;
   }
 }
 
@@ -559,9 +522,7 @@ input.theme-btn {
 }
 
 // Elementor Default Padding
-.elementor-column-gap-default
-  > .elementor-column
-  > .elementor-element-populated {
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated {
   padding: 0 12px !important;
 }
 

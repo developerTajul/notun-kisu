@@ -269,51 +269,28 @@ code {
 .theme-btn,
 .wp-block-loginout a,
 input.theme-btn {
-  display: inline-flex;
-  background-color: #0a6847;
-  border: 1px solid #0a6847;
-  color: #ffffff;
-  padding: 14px 24px;
-  text-align: center;
-  font-weight: 700;
+  padding: 20px 30px;
+  border: 1px solid #d0d0d0;
   font-family: "Outfit", sans-serif;
-  text-transform: uppercase;
-  position: relative;
-  transition: all 0.5s ease-out;
   font-size: 16px;
-  letter-spacing: 1.28px;
+  font-weight: 600;
+  line-height: 20px;
+  display: inline-flex;
   align-items: center;
-  gap: 15px;
-  overflow: hidden;
-  z-index: 2;
-  white-space: nowrap;
-}
-@media only screen and (min-width: 0px) and (max-width: 576px) {
-  .theme-btn,
-  .wp-block-loginout a,
-  input.theme-btn {
-    letter-spacing: initial;
-    font-size: 14px;
-  }
+  gap: 10px;
+  border-radius: 50px;
+  color: #181818;
 }
 .theme-btn:hover,
 .wp-block-loginout a:hover,
 input.theme-btn:hover {
-  color: #fff;
-  border-color: #d9a14c;
-  background-color: #d9a14c;
+  color: unset;
 }
-.theme-btn:hover:before,
-.wp-block-loginout a:hover:before,
-input.theme-btn:hover:before {
-  width: 150%;
-  background-color: #d9a14c;
+.theme-btn:hover i,
+.wp-block-loginout a:hover i,
+input.theme-btn:hover i {
+  color: #0a6847;
   transition: all 0.5s ease-out;
-}
-.theme-btn:focus,
-.wp-block-loginout a:focus,
-input.theme-btn:focus {
-  color: #ffffff;
 }
 
 .simple-btn {
@@ -4333,7 +4310,6 @@ body.admin-bar .header-area.style-7 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 60px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .section-title {
@@ -7685,7 +7661,7 @@ body.admin-bar .header-area.style-7 {
 .about-info-card.style-2 .about-info-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-info-card.style-2 .about-info-content {
@@ -7703,6 +7679,45 @@ body.admin-bar .header-area.style-7 {
 }
 .about-info-card.style-2 .about-info-content .section-title .desc {
   margin-bottom: 0;
+}
+.about-info-card.style-2 .about-info-content .about-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.about-info-card.style-2 .about-info-content .contact-area {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+.about-info-card.style-2 .about-info-content .contact-area .contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-info-card.style-2 .about-info-content .contact-area .contact .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #0a6847;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f2f2f2;
+}
+.about-info-card.style-2 .about-info-content .contact-area .contact .icon i {
+  color: #ffffff;
+}
+.about-info-card.style-2 .about-info-content .contact-area .contact .text-area .text {
+  margin-bottom: 0;
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about-info-card.style-2 .about-info-content .contact-area .contact .text-area .phone {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #181818;
 }
 
 .about-info-card.style-5 {
@@ -10786,7 +10801,6 @@ body.admin-bar .header-area.style-7 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 60px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .section-title {
@@ -11511,7 +11525,7 @@ body.admin-bar .header-area.style-7 {
 .list-item-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .list-item-wrapper {
@@ -11525,7 +11539,7 @@ body.admin-bar .header-area.style-7 {
   align-items: center;
 }
 .list-item-wrapper .list-item .icon {
-  font-size: 20px;
+  font-size: 18px;
   color: #0a6847;
   display: flex;
   align-items: center;
@@ -11534,11 +11548,11 @@ body.admin-bar .header-area.style-7 {
   border-radius: 50%;
 }
 .list-item-wrapper .list-item .text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: initial;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
   margin-bottom: 0;
-  color: #616670;
+  color: #181818;
 }
 .list-item-wrapper .list-item.style-two {
   gap: 10px;
