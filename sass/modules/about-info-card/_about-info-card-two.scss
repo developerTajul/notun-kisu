@@ -57,11 +57,15 @@
             }
           }
           .text-area {
-            .text {
+            p {
               margin-bottom: 0;
+            }
+            .text {
+              margin-bottom: 4px;
               color: $gray-800;
               font-size: 16px;
               font-weight: 400;
+              line-height: 26px;
             }
             .phone {
               font-size: 18px;

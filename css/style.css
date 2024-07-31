@@ -7707,11 +7707,15 @@ body.admin-bar .header-area.style-7 {
 .about-info-card.style-2 .about-info-content .contact-area .contact .icon i {
   color: #ffffff;
 }
-.about-info-card.style-2 .about-info-content .contact-area .contact .text-area .text {
+.about-info-card.style-2 .about-info-content .contact-area .contact .text-area p {
   margin-bottom: 0;
+}
+.about-info-card.style-2 .about-info-content .contact-area .contact .text-area .text {
+  margin-bottom: 4px;
   color: #666;
   font-size: 16px;
   font-weight: 400;
+  line-height: 26px;
 }
 .about-info-card.style-2 .about-info-content .contact-area .contact .text-area .phone {
   font-size: 18px;
