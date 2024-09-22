@@ -12,21 +12,20 @@
       margin-right: unset;
     }
 
-    .testimonial-slider-wrapper{
-      .slick-item{
+    .testimonial-slider-wrapper {
+      .slick-item {
         margin: 0 15px;
-        @include sm{
+        @include sm {
           margin: 0 4px;
         }
       }
     }
   }
-
 }
 
 // Testimonial Slider Arrow hidden
-.testimonial-slider-wrapper{
-  .slick-arrow{
+.testimonial-slider-wrapper {
+  .slick-arrow {
     display: none !important;
   }
 }
@@ -34,30 +33,29 @@
 // Testimonial Slider Dots
 .testimonial-slider-wrapper {
   &.style-4 {
-
     .slick-list {
       overflow: visible !important;
     }
 
-      .slick-item {
-        &.slick-center {
-          margin-top: -40px;
-          @include transition;
-          @include rmaxwd(991){
-             margin-top: 0;
-          }
-        }
-
-        margin-top: 0;
+    .slick-item {
+      &.slick-active {
+        margin-top: -40px;
         @include transition;
+        @include rmaxwd(991) {
+          margin-top: 0;
+        }
       }
+
+      margin-top: 0;
+      @include transition;
+    }
   }
 
   &.style-5 {
     .slick-list {
       overflow: visible !important;
-      
-      @include sm{
+
+      @include sm {
         overflow: hidden !important;
       }
     }
@@ -70,7 +68,7 @@
   align-items: center;
   justify-content: center;
   margin: 40px 0 0;
-  @include sm{
+  @include sm {
     padding-left: 0;
   }
   li {
@@ -97,7 +95,6 @@
           visibility: visible;
           @include transition;
         }
-
       }
     }
 
@@ -109,7 +106,7 @@
       background-color: $gray-200;
       height: 11px;
       @include transition;
-      @include sm{
+      @include sm {
         width: 55px;
       }
       position: relative;
