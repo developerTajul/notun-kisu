@@ -1,8 +1,8 @@
 .section-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 60px;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: flex-end;
+  // margin-bottom: 60px;
 
   @include xl{
     margin-bottom: 40px;
@@ -132,8 +132,9 @@
     }
   }
   &.two-column {
+    display: flex;
     align-items: flex-end;
-
+      justify-content: space-between;
     @include sm {
       flex-direction: column;
       gap: 30px;
