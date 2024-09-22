@@ -13,8 +13,10 @@ body {
   color: $text-color;
   vertical-align: baseline;
   line-height: 30px;
+  font-smoothing: antialiased;
   direction: ltr;
 }
+
 
 p {
   margin: 0 0 15px;
@@ -24,6 +26,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 
 h1 a,
 h2 a,
@@ -97,6 +100,8 @@ button {
 
 a:not([href]):not([tabindex]) {
   text-decoration: none;
+
+
 }
 
 a,
@@ -165,12 +170,15 @@ input:focus {
 }
 
 .background-gray {
-  background-color: #f4f4f4;
+  background-color: #F4F4F4;
 }
 
 .background-orange {
   background-color: $primary-color;
 }
+
+
+
 
 //.background-black-light {
 //  background-color: $black-100;
@@ -178,6 +186,7 @@ input:focus {
 //.background-gold {
 //  background-color: $primary-color;
 //}
+
 
 //.bg-light-black {
 //  background-color: rgb(49, 55, 63);
@@ -201,6 +210,8 @@ input:focus {
 //  background-color: rgb(241, 241, 249);
 //}
 
+
+
 .page-bg {
   background-color: $black;
 }
@@ -221,6 +232,7 @@ input:focus {
 
 .page-area,
 .blog-area {
+
   @include rmaxwd(991) {
     padding-top: 100px;
     padding-bottom: 52px;
@@ -251,24 +263,61 @@ code {
 .theme-btn,
 .wp-block-loginout a,
 input.theme-btn {
-  padding: 20px 30px;
-  border: 1px solid $gray-200;
-  font-family: $heading-font;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
   display: inline-flex;
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+  color: $white;
+  padding: 14px 24px;
+  text-align: center;
+  font-weight: 700;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  position: relative;
+  @include transition;
+  font-size: 16px;
+  letter-spacing: 1.28px;
   align-items: center;
-  gap: 10px;
-  border-radius: 50px;
-  color: $gray-900;
+  gap: 15px;
+  overflow: hidden;
+  z-index: 2;
+  white-space: nowrap;
 
+  @include xs {
+    letter-spacing: initial;
+    font-size: 14px;
+  }
+
+  //i {
+  //  display: inline-flex;
+  //  align-items: center;
+  //  justify-content: center;
+  //}
+  // &:before {
+  //   position: absolute;
+  //   left: -20%;
+  //   top: 0;
+  //   height: 100%;
+  //   width: 0;
+  //   content: "";
+  //   background-color: $blue-color;
+  //   z-index: -1;
+  //   transform: skew(45deg);
+  //   @include transition;
+  // }
   &:hover {
-    color: unset;
-    i {
-      color: $primary-color;
+    color: #fff;
+    border-color: $blue-color;
+    background-color: $blue-color;
+
+    &:before {
+      width: 150%;
+      background-color: $blue-color;
       @include transition;
     }
+  }
+
+  &:focus {
+    color: $white;
   }
 }
 
@@ -313,6 +362,7 @@ input.theme-btn {
   .icon {
     float: right;
   }
+
 }
 
 input.theme-btn {
@@ -485,6 +535,8 @@ input.theme-btn {
   //width: 150px;
   //height: 150px;
 
+
+
   //width: 100px;
   //height: 100px;
   //span {
@@ -521,8 +573,9 @@ input.theme-btn {
   }
 }
 
+
 // Elementor Default Padding
-.elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
   padding: 0 12px !important;
 }
 

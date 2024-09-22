@@ -20,8 +20,6 @@
 
 .feature-area {
     &.style-2 {
-        padding-top: 118px;
-        padding-bottom: 120px;
 
         @include md {
             padding: 100px 0;
@@ -40,8 +38,6 @@
         }
     }
     &.style-3 {
-        padding-top: 120px;
-        padding-bottom: 120px;
         position: relative;
       
         @include md {
@@ -236,13 +232,13 @@
 
     .desc {
         margin-bottom: 0;
-        padding: 0 70px;
 
     }
 
     .subscribe-form-widget {
-        padding: 0 74px;
-        margin-top: -6px;
+        padding: 0;
+        margin-top: 0;
+        width: 100%;
         @include sm {
             margin-top: 0;
             padding: 0 15px;

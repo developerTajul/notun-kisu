@@ -1,5 +1,6 @@
 // Blog Details Page
 .blog-details-wrapper {
+
   .comment-respond {
     margin-top: 72px;
     margin-bottom: 40px;
@@ -22,48 +23,49 @@
     //border: 0;
     overflow: visible;
     box-shadow: none;
-    .post-title {
+    .post-title{
       margin-bottom: 20px;
     }
-    .post-meta-info {
+    .post-meta-info{
       font-family: $heading-font;
       font-size: 18px;
       font-weight: 700;
       line-height: 27px;
       color: $black;
-      i {
+      i{
         font-size: 5px;
       }
     }
-    .divider {
+    .divider{
       width: 2px;
       height: 100%;
       background-color: $primary-color;
       flex-shrink: 0;
-      @include rmaxwd(1199) {
+      @include rmaxwd(1199){
         width: 100%;
         height: 2px;
       }
     }
-    .gallery-image-wrapper {
+    .gallery-image-wrapper{
       display: flex;
       gap: 30px;
       align-items: center;
-      @include rmaxwd(1199) {
+      @include rmaxwd(1199){
         align-items: start;
         flex-direction: column;
       }
-      .gallery-image {
+      .gallery-image{
         flex-shrink: 0;
-        @include sm {
+        @include sm{
           margin-bottom: 0;
         }
-        @include xl {
+        @include xl{ 
           width: 300px;
         }
+        
       }
-      .gallery-image-content {
-        p {
+      .gallery-image-content{
+        p{
           margin-bottom: 0;
         }
       }
@@ -71,7 +73,7 @@
     blockquote {
       box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
       background-color: #fff;
-      @include sm {
+      @include sm{
         padding: 20px;
       }
     }
@@ -82,19 +84,19 @@
       position: relative;
       align-items: center;
 
-      @include sm {
+      @include sm{
         flex-direction: column;
       }
-      .blog-post-tag {
-        .tag-icon {
+      .blog-post-tag{
+        .tag-icon{
           color: $primary-color;
           font-size: 20px;
         }
       }
-      .social-share {
+      .social-share{
         //margin-right: 12px;
 
-        .social-btn-overlay {
+        .social-btn-overlay{
           height: 100%;
           width: 100%;
           position: fixed;
@@ -103,17 +105,17 @@
           left: 0;
           opacity: 0;
           visibility: hidden;
-          &.active {
+          &.active{
             visibility: visible;
             opacity: 1;
           }
         }
       }
-      .social-btn {
+      .social-btn{
         color: $primary-color;
         background-color: transparent;
       }
-      .share-group {
+      .share-group{
         position: absolute;
         right: 0;
         top: 0;
@@ -121,18 +123,18 @@
         gap: 8px;
         padding: 16px 10px;
         border-radius: 4px;
-        background-color: #d9a14c;
+        background-color: #D9A14C;
         flex-direction: column;
         transform: translate(0px, -100%);
         z-index: 3;
         visibility: hidden;
         opacity: 0;
         @include transition;
-        &:after {
+        &:after{
           content: "";
           width: 10px;
           height: 10px;
-          background-color: #d9a14c;
+          background-color: #D9A14C;
           transform: rotate(35deg);
           position: absolute;
           bottom: -5px;
@@ -140,11 +142,11 @@
           transform: translateX(-50%) rotate(45deg);
           z-index: -1;
         }
-        &.active {
+        &.active{
           visibility: visible;
           opacity: 1;
         }
-        a {
+        a{
           width: 30px;
           height: 30px;
           display: inline-flex;
@@ -153,10 +155,9 @@
           align-items: center;
           background: #fff;
           border-radius: 50%;
-          font-size: 12px;
+          font-size: 12px;                
         }
-        i {
-        }
+        i{}
       }
     }
     iframe {
@@ -203,9 +204,9 @@
     .post-content {
       margin-bottom: 17px;
       /* Unit Test Data Compatibility Start */
-      .list-item-wrapper {
-        .list-item {
-          .text {
+      .list-item-wrapper{
+        .list-item{
+          .text{
             font-family: $heading-font;
             font-size: 18px;
             font-weight: 700;
@@ -251,32 +252,32 @@
           //border-radius: 8px;
         }
       }
-      .gallery-image {
-        @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      .gallery-image{
+        @media only screen and (min-width: 768px) and (max-width: 1199px){
           // margin-bottom: 30px;
         }
       }
     }
-    .list-item-wrapper {
-      @include md {
+    .list-item-wrapper{
+      @include md{
         margin-bottom: 10px;
       }
     }
-    &.post-1786 {
-      .post-meta-info {
+    &.post-1786{
+      .post-meta-info{
         margin-bottom: 20px;
         display: block;
       }
     }
-    &.post-1778 {
-      .post-content-wrapper {
-        p {
+    &.post-1778{
+      .post-content-wrapper{
+        p{
           line-height: normal;
         }
       }
     }
-    &.post-1782 {
-      .post-content-wrapper {
+    &.post-1782{
+      .post-content-wrapper{
         padding-top: 0;
       }
     }
@@ -289,7 +290,7 @@
 
 // Author
 .author-info {
-  background-color: #f4f4f4;
+  background-color: #F4F4F4;
   padding: 90px 55px 60px 55px;
   display: flex;
   gap: 30px;
@@ -300,7 +301,7 @@
   text-align: center;
   margin-top: 130px;
   margin-bottom: 70px;
-  @include sm {
+  @include sm{
     padding: 90px 25px 20px 25px;
   }
   .author-thumb {
@@ -329,7 +330,7 @@
       font-size: 16px;
       font-style: italic;
       color: $text-color;
-      font-family: $jost-font;
+      font-family: $roboto-font;
       text-transform: capitalize;
     }
     p {
@@ -337,7 +338,7 @@
       margin-bottom: 0;
       color: $text-color;
       font-size: 18px;
-      font-family: $jost-font;
+      font-family: $roboto-font;
     }
   }
   .author-social-profiles {
@@ -388,14 +389,14 @@
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  border-top: 1px solid #e3e3e3;
-  border-bottom: 1px solid #e3e3e3;
+  border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
 
-  @include rmaxwd(991) {
+  @include rmaxwd(991){
     gap: 16px;
     padding: 20px;
   }
-  @include lg {
+  @include lg{
     flex-direction: column;
   }
   @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -427,7 +428,7 @@
     flex-grow: 1;
     width: 50%;
     padding: 30px 0;
-    @include lg {
+    @include lg{
       width: 100%;
     }
     @include rmaxwd(374) {
@@ -439,13 +440,13 @@
     @include rmaxwd(767) {
       width: 100%;
     }
-    @include rmaxwd(991) {
+    @include rmaxwd(991){
       align-items: center;
     }
 
     &:last-child {
       flex-direction: row-reverse;
-      @include lg {
+      @include lg{
         // width: 100%;
         justify-content: end;
       }
@@ -480,7 +481,7 @@
     }
     .text {
       width: 100%;
-      @include lg {
+      @include lg{
         padding-left: 24px;
       }
       span {
@@ -518,3 +519,4 @@
     }
   }
 }
+
